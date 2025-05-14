@@ -11202,3 +11202,14 @@ body {
 .footer {
   padding: 5rem 0;
 }
+
+#map {
+      height: 300px;
+      width: 100%;
+    }
+
+    @media (max-width: 768px) {
+      #map {
+        height: 200px;
+      }
+    }
