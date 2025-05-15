@@ -1,8 +1,6 @@
 backend:
-  name: github
-  repo: bpardo02/sitioWeb-ViverosRioClaro
-  branch: panelbranch  # O la rama que usarás
-  base_url: https://viverosrioclaro.netlify.app/
+  name: git-gateway
+  branch: panelbranch
 
 media_folder: "assets/img"
 public_folder: "/assets/img"
