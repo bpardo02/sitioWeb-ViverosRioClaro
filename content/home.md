@@ -1,5 +1,5 @@
 ---
 title: Viveros Río Claro
-subtitle: Lorem ipsum dolor sit amet consectetur.
+subtitle: Texto de ejemplo
 header_image: /assets/img/imgvivero.webp
 ---
