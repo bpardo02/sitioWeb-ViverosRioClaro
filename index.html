@@ -209,5 +209,15 @@
             .bindPopup('Viveros Río Claro SPA')
             .openPopup();
         </script>
+
+        <script>
+        // Detecta si hay un token de confirmación en la URL
+        const hash = window.location.hash;
+        if (hash && hash.includes("confirmation_token=")) {
+            // Redirige automáticamente al panel /admin con el token
+            window.location.href = "/admin/" + hash;
+        }
+        </script>
+
     </body>
 </html>
