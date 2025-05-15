@@ -6,13 +6,27 @@ media_folder: "assets/img"
 public_folder: "/assets/img"
 
 collections:
-  - name: "pagina_inicio"
-    label: "Página de Inicio"
+  - name: "home"
+    label: "Encabezado Principal"
     files:
-      - label: "Contenido Principal"
-        name: "contenido"
-        file: "content/index.md"
+      - label: "Inicio"
+        name: "home"
+        file: "content/home.md"
         fields:
-          - { label: "Título", name: "titulo", widget: "string" }
-          - { label: "Texto Principal", name: "texto", widget: "text" }
-          - { label: "Imagen Principal", name: "imagen", widget: "image" }
+          - { label: "Título", name: "title", widget: "string" }
+          - { label: "Subtítulo", name: "subtitle", widget: "string" }
+          - { label: "Imagen de Encabezado", name: "header_image", widget: "image" }
+
+  - name: "projects"
+    label: "Proyectos"
+    files:
+      - label: "Lista de Proyectos"
+        name: "projects"
+        file: "content/projects.md"
+        fields:
+          - { label: "Título Proyecto Destacado", name: "project_1_title", widget: "string" }
+          - { label: "Imagen Proyecto Destacado", name: "project_1_image", widget: "image" }
+          - { label: "Título Proyecto Uno", name: "project_2_title", widget: "string" }
+          - { label: "Imagen Proyecto Uno", name: "project_2_image", widget: "image" }
+          - { label: "Título Proyecto Dos", name: "project_3_title", widget: "string" }
+          - { label: "Imagen Proyecto Dos", name: "project_3_image", widget: "image" }
