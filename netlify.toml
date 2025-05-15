@@ -1,6 +1,6 @@
 # sitioweb/netlify.toml
 [build]
-  publish = "sitioweb"
+  publish = "/"
 
 [[redirects]]
   from = "/admin"
