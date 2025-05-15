@@ -1,0 +1,18 @@
+backend:
+  name: git-gateway
+  branch: panelbranch  # O la rama que usarás
+
+media_folder: "assets/img"
+public_folder: "/assets/img"
+
+collections:
+  - name: "pagina_inicio"
+    label: "Página de Inicio"
+    files:
+      - label: "Contenido Principal"
+        name: "contenido"
+        file: "content/index.md"
+        fields:
+          - { label: "Título", name: "titulo", widget: "string" }
+          - { label: "Texto Principal", name: "texto", widget: "text" }
+          - { label: "Imagen Principal", name: "imagen", widget: "image" }
