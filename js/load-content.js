@@ -25,10 +25,13 @@ fetch('/content/projects.md')
 
     document.getElementById('project-1-img').src = data.project_1_image;
     document.getElementById('project-1-title').textContent = data.project_1_title;
+    document.getElementById('project-1-text').textContent = data.project_1_text;
 
     document.getElementById('project-2-img').src = data.project_2_image;
     document.getElementById('project-2-title').textContent = data.project_2_title;
+    document.getElementById('project-2-text').textContent = data.project_2_text;
 
     document.getElementById('project-3-img').src = data.project_3_image;
     document.getElementById('project-3-title').textContent = data.project_3_title;
+    document.getElementById('project-3-text').textContent = data.project_3_text;
   });
