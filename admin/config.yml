@@ -26,7 +26,12 @@ collections:
         fields:
           - { label: "Título Proyecto Destacado", name: "project_1_title", widget: "string" }
           - { label: "Imagen Proyecto Destacado", name: "project_1_image", widget: "image" }
+          - { label: "Descripción Proyecto Destacado", name: "project_1_text", widget: "text" }
+
           - { label: "Título Proyecto Uno", name: "project_2_title", widget: "string" }
           - { label: "Imagen Proyecto Uno", name: "project_2_image", widget: "image" }
+          - { label: "Descripción Proyecto Uno", name: "project_2_text", widget: "text" }
+
           - { label: "Título Proyecto Dos", name: "project_3_title", widget: "string" }
           - { label: "Imagen Proyecto Dos", name: "project_3_image", widget: "image" }
+          - { label: "Descripción Proyecto Dos", name: "project_3_text", widget: "text" }
